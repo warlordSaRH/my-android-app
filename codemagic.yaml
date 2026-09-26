@@ -6,6 +6,7 @@ workflows:
     scripts:
       - name: Build Android APK
         script: |
+          cd mutajri_android_mvp
           gradle assembleDebug
     artifacts:
-      - app/build/outputs/apk/**/*.apk
+      - mutajri_android_mvp/app/build/outputs/apk/**/*.apk
