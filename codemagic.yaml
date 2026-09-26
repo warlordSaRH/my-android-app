@@ -10,4 +10,4 @@ workflows:
           cd mutajri_android_mvp
           gradle assembleDebug
     artifacts:
-      - mutajri_android_mvp/app/build/outputs/apk/**/*.apk
+      - "**/*.apk"
